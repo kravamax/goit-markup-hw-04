@@ -178,13 +178,11 @@ img {
   color: #212121;
 }
 
-.contacts-item:hover .contacts-link,
-.contacts-item:focus .contacts-link {
-  color: var(--accent-color);
-}
-
+.contacts-link:hover,
+.contacts-link:focus,
 .contacts-item:hover .contacts-icon,
 .contacts-item:focus .contacts-icon {
+  color: var(--accent-color);
   fill: var(--accent-color);
 }
 
@@ -388,7 +386,7 @@ img {
   width: 20px;
   height: 20px;
 
-  fill: var(--main-text-color);
+  fill: #afb1b8;
 }
 
 .social-link:hover,
